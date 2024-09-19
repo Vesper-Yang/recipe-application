@@ -1,7 +1,8 @@
 <script setup>
+import BaseNavigation from './components/BaseNavigation.vue';
 </script>
 
 <template>
-    <p>This is a default layout</p>
+    <BaseNavigation />
     <slot />
 </template>
