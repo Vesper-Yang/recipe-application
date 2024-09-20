@@ -1,5 +1,5 @@
 <script setup>
-import BaseNavigation from './components/BaseNavigation.vue';
+import BaseNavigation from '~/components/BaseNavigation.vue';
 </script>
 
 <template>
