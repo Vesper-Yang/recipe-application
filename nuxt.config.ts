@@ -19,13 +19,18 @@ export default defineNuxtConfig({
     }
   },
 
+  // 指定了允许的图像来源域名。从这个域名获取的图像可以通过 Nuxt Image 模块进行处理，优化图像下载/加载速度的性能
+  image: {
+    domains: ['https://dummyjson.com']
+  },
+
   unhead: {
     renderSSRHeadOptions: {
       omitLineBreaks: false
     }
   },
 
-  devtools: { enabled: true },
+  devtools: { enabled: true }, // 启用开发工具
 
   modules: [
     '@nuxtjs/tailwindcss',
